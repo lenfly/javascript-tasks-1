@@ -2,8 +2,8 @@
 var hours = process.argv[2];
 var minutes = process.argv[3];
 // Немного замечательного кода и магии
-var fontAr = [1,4,5,9,10,40,50,90,100,400,500,900,1000];
-var fontRom = ["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"];
+var fontAr = [1,4,5,9,10,40,50];
+var fontRom = ["I","IV","V","IX","X","XL","L"];
     
 function getRoman(time) {
     if (!time) return '';
